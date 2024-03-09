@@ -1,0 +1,20 @@
+.input {
+    @apply w-64 h-10 rounded-[20px] border-2 border-gray pl-5
+}
+
+.small-button {
+    @apply bg-lightGray hover:bg-gray p-3 rounded-full focus:outline-none
+  }
+
+  @keyframes colorChange {
+    0% {
+        @apply bg-lightGray /* Start color */
+    }
+    100% {
+        @apply bg-gray /* End color */
+    }
+  }
+
+.cart-indicator {
+    @apply absolute left-10 right-0 top-[40px] flex h-6 w-6 items-center justify-center rounded-full bg-darkBlue text-white
+}
